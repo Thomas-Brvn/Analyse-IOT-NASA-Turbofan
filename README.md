@@ -42,7 +42,7 @@ Certains capteurs (sensor_1, sensor_5, sensor_6, sensor_10, sensor_16, sensor_18
 
 ## Resultats
 
-Trois modeles testes sur le dataset FD001 :
+Trois modeles testes sur le dataset FD001. Les metriques mesurent l'erreur en cycles : **RMSE** (erreur quadratique moyenne, penalise les grands ecarts), **MAE** (erreur absolue moyenne), **R2** (part de variance expliquee, 1 = parfait) :
 
 | Modele | RMSE (test) | MAE (test) | R2 (test) |
 |--------|-------------|------------|-----------|
