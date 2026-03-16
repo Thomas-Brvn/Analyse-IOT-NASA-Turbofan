@@ -24,6 +24,22 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
+## Analyse des capteurs
+
+Certains capteurs (sensor_1, sensor_5, sensor_6, sensor_10, sensor_16, sensor_18, sensor_19) ont une variance quasi-nulle et sont exclus. Les 6 capteurs les plus correles avec le RUL montrent une degradation progressive et coherente sur l'ensemble des moteurs.
+
+![Evolution des capteurs les plus correles avec le RUL](images/sensor_evolution.png)
+
+## Modelisation
+
+### Predictions sur le jeu de validation
+
+![Predictions vs reel](images/model_predictions.png)
+
+### Importance des features (Random Forest)
+
+![Importance des features](images/feature_importance.png)
+
 ## Resultats
 
 Trois modeles testes sur le dataset FD001 :
